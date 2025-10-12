@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTF Challenge - Binary Wheel Decoder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CTF Challenge - Binary Wheel Decoder</h1>
+        
+        <div class="wheel-section">
+            <h2>Binary Wheel (32 slices, 5 rings)</h2>
+            <div id="wheel-container"></div>
+        </div>
+        
+        <div class="input-section">
+            <h2>Binary Input</h2>
+            <input type="text" id="binary-input" placeholder="Enter binary string (0s and 1s only)" />
+            <div id="binary-display"></div>
+        </div>
+        
+        <div class="controls">
+            <button id="validate-wheel">Validate Wheel</button>
+            <button id="decode" disabled>Decode</button>
+            <button id="reset-wheel">Reset Wheel</button>
+        </div>
+        
+        <div class="output-section">
+            <h2>Decoded Output</h2>
+            <div id="output"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
